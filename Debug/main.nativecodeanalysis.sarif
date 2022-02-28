@@ -1,0 +1,63 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29915.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"D:\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0065B1C0 -il C:\\Users\\小荣\\AppData\\Local\\Temp\\_CL_a796e438ast -typedil -f main.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829915 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\main.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory D:\\新建文件夹\\计算机网络\\计网课设\\DNS中继器 -analyze:rulesetdirectory ;D:\\Visual Studio\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Visual Studio\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\include -I D:\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I D:\\Visual Studio\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/新建文件夹/计算机网络/计网课设/dns中继器/otherfuns.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "a649d48205ef57644395f68a62492d63"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/新建文件夹/计算机网络/计网课设/dns中继器/head.h"
+          },
+          "hashes": {
+            "md5": "03c38c8260d4563b1b02f993f5c86ea5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/新建文件夹/计算机网络/计网课设/dns中继器/hash_table.h"
+          },
+          "hashes": {
+            "md5": "14fd4f5ab77e7cf254b25d10196a73b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/新建文件夹/计算机网络/计网课设/dns中继器/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "3bdcbeeb229ee7b5c2e67c1f2588e043"
+          }
+        }
+      ]
+    }
+  ]
+}
